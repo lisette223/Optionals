@@ -6,15 +6,17 @@ import Foundation
 
  Because optionals are types just like Arrays and Strings are, we can use them in the signature of a function. Optionals are useful because when writing some functions, you might not have a good value to return.
 */
-func firstOddNumber(in arr: [Int]) -> Int {
-    for value in arr {
-        if !value.isMultiple(of: 2) {
-            return value
-        }
-    }
-    return
-    //  Need to return something!
-} // Error: Missing return in a function expected to return 'Int'
+//func firstOddNumber(in arr: [Int]) -> Int {
+//    for value in arr {
+//        if !value.isMultiple(of: 2) {
+//            return value
+//        }
+//    }
+// //   return
+//    //  Need to return something!
+//}
+
+// Error: Missing return in a function expected to return 'Int'
 
 /*
 What number should firstOddNumber(in:) return if we pass in [2,4,6]? In many languages, functions return -1 if they don’t have a good answer to the question. But here, that would be pretty confusing because in the array [2, 8,-1, 5], -1 is the first odd number!
@@ -50,4 +52,8 @@ After the for loop, return nil, because the target was not found in arr
  4. Use an if let statement to bind firstIndex(of: "bad", in: words) to a constant badIndex, then print the value of badIndex. Add an else statement to the if let that prints “words does not contain the string ‘bad’”.
 
  */
+
+let words = ["optionals", nil, "are", "great", nil, "at", "handling", nil, "values"]
+
+
 //: [Next](@next)
