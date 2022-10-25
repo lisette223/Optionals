@@ -54,6 +54,13 @@ After the for loop, return nil, because the target was not found in arr
  */
 
 let words = ["optionals", nil, "are", "great", nil, "at", "handling", nil, "values"]
-
+func firstIndex(of target: String, in arr: [String?]) -> Int? {
+    for i in arr.indices {
+    // add code
+    }
+    
+    // add code
+    
+}
 
 //: [Next](@next)
