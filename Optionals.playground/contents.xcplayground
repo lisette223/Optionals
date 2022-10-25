@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1. Defining Optionals '/>
+        <page name='2. Force Unwrapping Optionals '/>
+        <page name='3. Optional Binding'/>
+        <page name='4. Multiple Optional Bindings '/>
+        <page name='5. The nil-coalescing operator'/>
+        <page name='6. Optional Chaining '/>
+        <page name='7. Guard Statements'/>
+        <page name='8. Optionals and Functions'/>
+    </pages>
+</playground>
